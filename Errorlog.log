@@ -1,0 +1,852 @@
+Team: k
+Member 1:	Justin Hill	juhi0220
+
+Test tmin score: 1.00/1.00
+Test minusOne score: 1.00/1.00
+Test evenBits score: 2.00/2.00
+Test divpwr2 score: 2.00/2.00
+Test isEqual score: 2.00/2.00
+Test negate score: 2.00/2.00
+Test getByte score: 2.00/2.00
+Test isPositive score: 3.00/3.00
+Test addOK score: 3.00/3.00
+Test isLessOrEqual(-2147483648[0x80000000],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483648[0x80000000],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483647[0x7fffffff],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483647[0x7fffffff],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],0[0x0]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],1[0x1]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483647[0x7fffffff],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-3[0xfffffffd],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-3[0xfffffffd],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-3[0xfffffffd],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-3[0xfffffffd],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-3[0xfffffffd],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-3[0xfffffffd],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-3[0xfffffffd],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-3[0xfffffffd],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-3[0xfffffffd],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-3[0xfffffffd],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],0[0x0]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],1[0x1]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1868327894[0x6f5c6bd6],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483647[0x80000001],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483647[0x80000001],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483647[0x80000001],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483646[0x7ffffffe],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483646[0x7ffffffe],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483646[0x7ffffffe],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],0[0x0]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],1[0x1]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483646[0x7ffffffe],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2[0xfffffffe],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2[0xfffffffe],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2[0xfffffffe],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2[0xfffffffe],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2[0xfffffffe],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2[0xfffffffe],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2[0xfffffffe],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2[0xfffffffe],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2[0xfffffffe],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2[0xfffffffe],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2[0xfffffffe],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2[0xfffffffe],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2[0xfffffffe],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2[0xfffffffe],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2[0xfffffffe],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2[0xfffffffe],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2[0xfffffffe],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2[0xfffffffe],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2[0xfffffffe],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2[0xfffffffe],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(792185314[0x2f37c9e2],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(792185314[0x2f37c9e2],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(792185314[0x2f37c9e2],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(792185314[0x2f37c9e2],0[0x0]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(792185314[0x2f37c9e2],1[0x1]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(792185314[0x2f37c9e2],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483646[0x80000002],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483646[0x80000002],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483646[0x80000002],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483646[0x80000002],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483645[0x7ffffffd],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483645[0x7ffffffd],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483645[0x7ffffffd],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483645[0x7ffffffd],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],0[0x0]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],1[0x1]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483645[0x7ffffffd],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-1[0xffffffff],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-1[0xffffffff],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-1[0xffffffff],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-1[0xffffffff],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-1[0xffffffff],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-1[0xffffffff],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-1[0xffffffff],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-1[0xffffffff],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-1[0xffffffff],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-1[0xffffffff],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-501702297[0xe218a167],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-501702297[0xe218a167],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-501702297[0xe218a167],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-501702297[0xe218a167],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-501702297[0xe218a167],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-501702297[0xe218a167],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-501702297[0xe218a167],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-501702297[0xe218a167],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-501702297[0xe218a167],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-501702297[0xe218a167],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483645[0x80000003],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483645[0x80000003],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483645[0x80000003],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483645[0x80000003],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483645[0x80000003],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483644[0x7ffffffc],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483644[0x7ffffffc],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483644[0x7ffffffc],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483644[0x7ffffffc],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483644[0x7ffffffc],0[0x0]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],1[0x1]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483644[0x7ffffffc],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(0[0x0],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(0[0x0],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(0[0x0],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(0[0x0],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(0[0x0],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(0[0x0],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(0[0x0],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(0[0x0],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(0[0x0],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],0[0x0]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],1[0x1]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1072757770[0x3ff0fc0a],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483644[0x80000004],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483644[0x80000004],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483644[0x80000004],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483644[0x80000004],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-2147483644[0x80000004],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-2147483644[0x80000004],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483643[0x7ffffffb],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483643[0x7ffffffb],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483643[0x7ffffffb],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483643[0x7ffffffb],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483643[0x7ffffffb],0[0x0]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(2147483643[0x7ffffffb],1[0x1]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(2147483643[0x7ffffffb],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1[0x1],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1[0x1],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1[0x1],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1[0x1],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1[0x1],0[0x0]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(1[0x1],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1[0x1],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(1[0x1],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-564085793[0xde60bbdf],-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-564085793[0xde60bbdf],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],-884074513[0xcb4e17ef]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-564085793[0xde60bbdf],-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-564085793[0xde60bbdf],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],-1149927935[0xbb757e01]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-564085793[0xde60bbdf],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-564085793[0xde60bbdf],2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],362875346[0x15a109d2]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-564085793[0xde60bbdf],2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],0[0x0]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],-1097738941[0xbe91d543]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-564085793[0xde60bbdf],-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual(-564085793[0xde60bbdf],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test isLessOrEqual(-564085793[0xde60bbdf],-1492974475[0xa7030475]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test isLessOrEqual score: 0.00/3.00
+Test logicalShift score: 3.00/3.00
+Test leastBitPos(-2147483648[0x80000000]) failed.
+  Gives 2[0x2].  Should be -2147483648[0x80000000]
+Test leastBitPos(2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test leastBitPos(-3[0xfffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test leastBitPos(598969032[0x23b38ac8]) failed.
+  Gives 2[0x2].  Should be 8[0x8]
+Test leastBitPos(-2147483647[0x80000001]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test leastBitPos(2147483645[0x7ffffffd]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test leastBitPos(-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test leastBitPos(-1745988055[0x97ee5629]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test leastBitPos(-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test leastBitPos(2147483644[0x7ffffffc]) failed.
+  Gives 2[0x2].  Should be 4[0x4]
+Test leastBitPos(0[0x0]) failed.
+  Gives 2[0x2].  Should be 0[0x0]
+Test leastBitPos(-1568082201[0xa288f6e7]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test leastBitPos(-2147483644[0x80000004]) failed.
+  Gives 2[0x2].  Should be 4[0x4]
+Test leastBitPos(2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test leastBitPos(1[0x1]) failed.
+  Gives 2[0x2].  Should be 1[0x1]
+Test leastBitPos(86801588[0x52c7cb4]) failed.
+  Gives 2[0x2].  Should be 4[0x4]
+Test leastBitPos score: 0.00/4.00
+Test bitParity score: 4.00/4.00
+Test isPower2 score: 4.00/4.00
+Test bang score: 4.00/4.00
+Overall correctness score: 33.00/40.00
+416 errors encountered.
